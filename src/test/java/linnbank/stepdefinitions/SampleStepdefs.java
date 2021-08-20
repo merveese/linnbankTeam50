@@ -9,7 +9,7 @@ public class SampleStepdefs {
     @Given("user on home page")
     public void user_on_home_page() {
         System.out.println("Hello WORLD");
-        Driver.getDriver().get(ConfigurationReader.getProperty("url"));
+        Driver.getDriver().get(ConfigurationReader.getProperty("homepage_url"));
 
     }
 
