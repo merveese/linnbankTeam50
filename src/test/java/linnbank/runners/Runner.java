@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
                 "junit:target/xml-report/cucumber.xml"},
         features="src/test/resources/features",
         glue= "linnbank/stepdefinitions",
-        tags = "@us5_tc_01",
+        tags = "@sample",
         dryRun = false
 )
 
