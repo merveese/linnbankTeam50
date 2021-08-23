@@ -13,6 +13,8 @@ public class Gmi_CreateACustomerPage {
     public WebElement searchSsnBox;
     @FindBy (xpath = "//*[contains(text(),'Search')]")
     public WebElement searchButton;
+    @FindBy (xpath = "//*[contains(text(),'translation-not-found')]")
+    public WebElement greenAlert;
     @FindBy (id="tp-customer-firstName")
     public WebElement firstNameBox;
     @FindBy (id="tp-customer-lastName")
@@ -37,6 +39,8 @@ public class Gmi_CreateACustomerPage {
     public WebElement state;
     @FindBy (id="tp-customer-ssn")
     public WebElement customerssn;
+    @FindBy (xpath = "//div[contains(text(),'This field is required')]")
+    public WebElement fieldRequiredMessage;
 
 
 }
