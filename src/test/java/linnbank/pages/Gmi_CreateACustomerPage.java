@@ -10,7 +10,7 @@ public class Gmi_CreateACustomerPage {
         PageFactory.initElements(Driver.getDriver(), this);
     }
     @FindBy (id="search-ssn")
-    public WebElement ssnBox;
+    public WebElement searchSsnBox;
     @FindBy (xpath = "//*[contains(text(),'Search')]")
     public WebElement searchButton;
     @FindBy (id="tp-customer-firstName")
@@ -35,5 +35,8 @@ public class Gmi_CreateACustomerPage {
     public WebElement country;
     @FindBy (id="tp-customer-state")
     public WebElement state;
+    @FindBy (id="tp-customer-ssn")
+    public WebElement customerssn;
+
 
 }
