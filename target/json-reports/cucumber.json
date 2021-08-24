@@ -1,36 +1,50 @@
 [
   {
-    "line": 2,
+    "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-08-19T22:50:16.344Z",
-        "line": 3,
-        "name": "sample",
+        "start_timestamp": "2021-08-21T22:46:42.326Z",
+        "line": 7,
+        "name": "",
         "description": "",
-        "id": "sample;sample",
+        "id": "all-regisrants-info;",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 13602350200,
+              "duration": 18720331300,
               "status": "passed"
             },
-            "line": 4,
+            "line": 8,
             "name": "user on home page",
             "match": {
               "location": "linnbank.stepdefinitions.SampleStepdefs.user_on_home_page()"
             },
             "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "user tests",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testing"
           }
         ]
       }
     ],
-    "name": "sample",
+    "name": "All regisrants Info",
     "description": "",
-    "id": "sample",
+    "id": "all-regisrants-info",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/gmibank.feature",
+    "uri": "file:src/test/resources/features/Registration.feature",
     "tags": []
   }
 ]
