@@ -11,6 +11,7 @@ import linnbank.utilities.Driver;
 import org.junit.Assert;
 
 public class Registration_Step_Def {
+
     Gmi_HomePage homePage = new Gmi_HomePage();
     Gmi_RegistrationPage registrationPage = new Gmi_RegistrationPage();
     Faker faker = new Faker();
@@ -32,52 +33,42 @@ public class Registration_Step_Def {
     public void user_puts_a_valid_ssn() {
         registrationPage.ssn.sendKeys(faker.idNumber().ssnValid());
     }
-
-//    @Then("user puts a name")
-//    public void user_puts_a_name() {
-//        // Write code here that turns the phrase above into concrete actions
-//        throw new io.cucumber.java.PendingException();
-//    }
-//    @Then("user puts a last name")
-//    public void user_puts_a_last_name() {
-//        // Write code here that turns the phrase above into concrete actions
-//        throw new io.cucumber.java.PendingException();
-//    }
-//    @Then("user puts an address")
-//    public void user_puts_an_address() {
-//        // Write code here that turns the phrase above into concrete actions
-//        throw new io.cucumber.java.PendingException();
-//    }
-//    @Then("user puts a phone number")
-//    public void user_puts_a_phone_number() {
-//        // Write code here that turns the phrase above into concrete actions
-//        throw new io.cucumber.java.PendingException();
-//    }
-//    @Then("user puts a username")
-//    public void user_puts_a_username() {
-//        // Write code here that turns the phrase above into concrete actions
-//        throw new io.cucumber.java.PendingException();
-//    }
-//    @Then("user puts an email")
-//    public void user_puts_an_email() {
-//        // Write code here that turns the phrase above into concrete actions
-//        throw new io.cucumber.java.PendingException();
-//    }
-//    @Then("user sets a password")
-//    public void user_sets_a_password() {
-//        // Write code here that turns the phrase above into concrete actions
-//        throw new io.cucumber.java.PendingException();
-//    }
-//    @Then("user confirm the password")
-//    public void user_confirm_the_password() {
-//        // Write code here that turns the phrase above into concrete actions
-//        throw new io.cucumber.java.PendingException();
-//    }
-//    @Then("user completes registration by clicking on register button")
-//    public void user_completes_registration_by_clicking_on_register_button() {
-//        // Write code here that turns the phrase above into concrete actions
-//        throw new io.cucumber.java.PendingException();
-//    }
+    @Then("user puts a name")
+    public void user_puts_a_name() {
+        registrationPage.name.sendKeys(faker.name().firstName());
+    }
+    @Then("user puts a last name")
+    public void user_puts_a_last_name() {
+        registrationPage.lastname.sendKeys(faker.name().lastName());
+    }
+    @Then("user puts an address")
+    public void user_puts_an_address() {
+        registrationPage.address.sendKeys(faker.address().fullAddress());
+    }
+    @Then("user puts a phone number")
+    public void user_puts_a_phone_number() {
+        registrationPage.mobilePhoneNumber.sendKeys(faker.phoneNumber().cellPhone());
+    }
+    @Then("user puts a username")
+    public void user_puts_a_username() {
+        registrationPage.username.sendKeys(faker.superhero().name());
+    }
+    @Then("user puts an email")
+    public void user_puts_an_email() {
+        registrationPage.email.sendKeys(faker.internet().emailAddress());
+    }
+    @Then("user sets a password {string}")
+    public void user_sets_a_password(String string) {
+        registrationPage.password.sendKeys(string);
+    }
+    @Then("user confirm the password {string}")
+    public void user_confirm_the_password(String string) {
+        registrationPage.passwordConfirmation.sendKeys(string);
+    }
+    @Then("user completes registration by clicking on register button")
+    public void user_completes_registration_by_clicking_on_register_button() {
+        registrationPage.registerButton.click();
+    }
 
 
 

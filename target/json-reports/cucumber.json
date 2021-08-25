@@ -3,7 +3,6 @@
     "line": 2,
     "elements": [
       {
-<<<<<<< HEAD
         "line": 3,
         "name": "User is on registration page",
         "description": "",
@@ -12,20 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8536697600,
-=======
-        "start_timestamp": "2021-08-25T05:48:51.401Z",
-        "line": 3,
-        "name": "Any field on the registration page should not be left blank",
-        "description": "",
-        "id": "system-should-not-allow-anyone-to-register-with-invalid-credentials-seeing-the-message;any-field-on-the-registration-page-should-not-be-left-blank",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 5938114400,
->>>>>>> sibel
+              "duration": 9390348100,
               "status": "passed"
             },
             "line": 4,
@@ -37,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 452569500,
+              "duration": 542175100,
               "status": "passed"
             },
             "line": 5,
@@ -45,17 +31,11 @@
             "match": {
               "location": "linnbank.stepdefinitions.Registration_Step_Def.user_clicks_on_the_webelement_on_the_right_top_corner()"
             },
-<<<<<<< HEAD
-=======
-            "line": 5,
-            "name": "user click on registration page",
-            "match": {},
->>>>>>> sibel
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 276823300,
+              "duration": 246852300,
               "status": "passed"
             },
             "line": 6,
@@ -68,7 +48,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-08-25T05:10:13.622Z",
+        "start_timestamp": "2021-08-25T07:06:54.660Z",
         "line": 7,
         "name": "TC_01_",
         "description": "",
@@ -78,9 +58,8 @@
         "steps": [
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(text(), \u0027Your SSN is invalid\u0027)]\"}\n  (Session info: chrome\u003d92.0.4515.159)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-ELMD06V\u0027, ip: \u0027172.21.0.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.10\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\aatil\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50126}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a9ba351f16a43d705cfac37e71cc16e5\n*** Element info: {Using\u003dxpath, value\u003d//div[contains(text(), \u0027Your SSN is invalid\u0027)]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy17.getText(Unknown Source)\r\n\tat linnbank.stepdefinitions.Registration_Step_Def.user_puts_a_valid_ssn(Registration_Step_Def.java:34)\r\n\tat ✽.user puts a valid ssn(file:///C:/Users/aatil/IdeaProjects/linnbankTeam50/src/test/resources/features/Registration.feature:8)\r\n",
-              "duration": 10484338900,
-              "status": "failed"
+              "duration": 554708300,
+              "status": "passed"
             },
             "line": 8,
             "name": "user puts a valid ssn",
@@ -88,30 +67,143 @@
               "location": "linnbank.stepdefinitions.Registration_Step_Def.user_puts_a_valid_ssn()"
             },
             "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1067063800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user puts a name",
+            "match": {
+              "location": "linnbank.stepdefinitions.Registration_Step_Def.user_puts_a_name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 226571600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user puts a last name",
+            "match": {
+              "location": "linnbank.stepdefinitions.Registration_Step_Def.user_puts_a_last_name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 703972700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user puts an address",
+            "match": {
+              "location": "linnbank.stepdefinitions.Registration_Step_Def.user_puts_an_address()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 346200900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user puts a phone number",
+            "match": {
+              "location": "linnbank.stepdefinitions.Registration_Step_Def.user_puts_a_phone_number()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 237238200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user puts a username",
+            "match": {
+              "location": "linnbank.stepdefinitions.Registration_Step_Def.user_puts_a_username()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 411405900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user puts an email",
+            "match": {
+              "location": "linnbank.stepdefinitions.Registration_Step_Def.user_puts_an_email()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 236043200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user sets a password \"Password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Password123\"",
+                  "offset": 21
+                }
+              ],
+              "location": "linnbank.stepdefinitions.Registration_Step_Def.user_sets_a_password(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 230266900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user confirm the password \"Password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Password123\"",
+                  "offset": 26
+                }
+              ],
+              "location": "linnbank.stepdefinitions.Registration_Step_Def.user_confirm_the_password(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 138998300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user completes registration by clicking on register button",
+            "match": {
+              "location": "linnbank.stepdefinitions.Registration_Step_Def.user_completes_registration_by_clicking_on_register_button()"
+            },
+            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@invalid_registration"
+            "name": "@testing"
           }
         ]
       }
     ],
-    "name": "System should not allow anyone to register with invalid credentials seeing the message",
+    "name": "All regisrants Info",
     "description": "",
-    "id": "system-should-not-allow-anyone-to-register-with-invalid-credentials-seeing-the-message",
+    "id": "all-regisrants-info",
     "keyword": "Feature",
-<<<<<<< HEAD
     "uri": "file:src/test/resources/features/Registration.feature",
     "tags": [
       {
         "name": "@testing",
-=======
-    "uri": "file:src/test/resources/features/invalid_registration_page.feature",
-    "tags": [
-      {
-        "name": "@invalid_registration",
->>>>>>> sibel
         "type": "Tag",
         "location": {
           "line": 1,
