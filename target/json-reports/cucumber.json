@@ -3,6 +3,7 @@
     "line": 2,
     "elements": [
       {
+<<<<<<< HEAD
         "line": 3,
         "name": "User is on registration page",
         "description": "",
@@ -12,6 +13,19 @@
           {
             "result": {
               "duration": 8536697600,
+=======
+        "start_timestamp": "2021-08-25T05:48:51.401Z",
+        "line": 3,
+        "name": "Any field on the registration page should not be left blank",
+        "description": "",
+        "id": "system-should-not-allow-anyone-to-register-with-invalid-credentials-seeing-the-message;any-field-on-the-registration-page-should-not-be-left-blank",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5938114400,
+>>>>>>> sibel
               "status": "passed"
             },
             "line": 4,
@@ -31,6 +45,12 @@
             "match": {
               "location": "linnbank.stepdefinitions.Registration_Step_Def.user_clicks_on_the_webelement_on_the_right_top_corner()"
             },
+<<<<<<< HEAD
+=======
+            "line": 5,
+            "name": "user click on registration page",
+            "match": {},
+>>>>>>> sibel
             "keyword": "And "
           },
           {
@@ -72,19 +92,26 @@
         ],
         "tags": [
           {
-            "name": "@testing"
+            "name": "@invalid_registration"
           }
         ]
       }
     ],
-    "name": "All regisrants Info",
+    "name": "System should not allow anyone to register with invalid credentials seeing the message",
     "description": "",
-    "id": "all-regisrants-info",
+    "id": "system-should-not-allow-anyone-to-register-with-invalid-credentials-seeing-the-message",
     "keyword": "Feature",
+<<<<<<< HEAD
     "uri": "file:src/test/resources/features/Registration.feature",
     "tags": [
       {
         "name": "@testing",
+=======
+    "uri": "file:src/test/resources/features/invalid_registration_page.feature",
+    "tags": [
+      {
+        "name": "@invalid_registration",
+>>>>>>> sibel
         "type": "Tag",
         "location": {
           "line": 1,
