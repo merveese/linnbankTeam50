@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="8.091">
-    <testcase classname="System should not allow anyone to register with invalid credentials seeing the message" name="Any field on the registration page should not be left blank" time="7.625">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="14.405">
+    <testcase classname="All regisrants Info" name="TC_01_" time="13.655">
         <system-out>
             <![CDATA[Given user on home page.....................................................passed
 And user clicks on the webelement on the right top corner...................passed
 Then user clicks on register................................................passed
 Then user puts a valid ssn..................................................passed
+Then user puts a name.......................................................passed
+Then user puts a last name..................................................passed
+Then user puts an address...................................................passed
+Then user puts a phone number...............................................passed
+Then user puts a username...................................................passed
+Then user puts an email.....................................................passed
+Then user sets a password "Password123".....................................passed
+Then user confirm the password "Password123"................................passed
+Then user completes registration by clicking on register button.............passed
 ]]>
         </system-out>
     </testcase>
