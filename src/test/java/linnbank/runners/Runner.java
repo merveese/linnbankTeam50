@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
         glue= "linnbank/stepdefinitions",
 
         tags = "@testing",
-        dryRun = false
+        dryRun =false
 )
 
 
