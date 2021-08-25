@@ -16,10 +16,10 @@ public class Gmi_LoginPage {
         @FindBy(id = "password")
         public WebElement password;
         //reset password
-        @FindBy(xpath = "//a[@href='/account/reset/request']")
+        @FindBy(xpath = "//span[contains( text(),'forget')]")
         public WebElement resertPasswordLink;
         //register new
-        @FindBy(xpath = "(//a[@href='/account/register'])[2]")
+        @FindBy(xpath = "//*[contains(text(),'Register a new account')]")
         public WebElement registerNewAccountlink;
         // sign in button
         @FindBy(xpath = "//button[@type='submit']")
@@ -30,8 +30,5 @@ public class Gmi_LoginPage {
 
         @FindBy(xpath = " //*[contains(text(),'Failed to sign in')]")
         public WebElement errorMessage;
-
-       //(//p)[1] this is for "Enter the email address you used to register" for acpt creiteria5
-
-    }
+ }
 
