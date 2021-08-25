@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="19.879">
-    <testcase classname="All regisrants Info" name="_2" time="19.005">
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="6.448">
+    <testcase classname="System should not allow anyone to register with invalid credentials seeing the message" name="Any field on the registration page should not be left blank" time="6.072">
         <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
             <![CDATA[Given user on home page.....................................................passed
-And user tests..............................................................undefined
+And user click on registration page.........................................undefined
 ]]>
         </failure>
     </testcase>
