@@ -15,4 +15,7 @@ public class Gmi_HomePage {
     //sign in button
     @FindBy(xpath = "//span[contains(text(),'Sign in')]")
     public WebElement signInButton;
+    //register button
+    @FindBy(xpath= "//span[contains(text(),'Register')]")
+    public WebElement registrationButton;
 }
