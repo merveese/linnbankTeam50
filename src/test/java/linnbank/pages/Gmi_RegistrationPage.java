@@ -64,6 +64,9 @@ public class Gmi_RegistrationPage {
     @FindBy(id= "register-submit")
     public WebElement registerButton;
 
+    @FindBy(xpath= "//div[@class=\"Toastify\"]")
+    public WebElement registrationSuccess;
+
 
 
 
