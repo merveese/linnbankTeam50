@@ -70,6 +70,11 @@ public class Registration_Step_Def {
         registrationPage.registerButton.click();
     }
 
+    @Then("assert registration is successful")
+    public void assert_registration_is_successful() {
+        Assert.assertTrue(registrationPage.registrationSuccess.isDisplayed());
+    }
+
 
 
 
