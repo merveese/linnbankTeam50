@@ -15,6 +15,7 @@ Feature: All regisrants Info
     Then user sets a password "Password123"
     Then user confirm the password "Password123"
     Then user completes registration by clicking on register button
+    Then assert registration is successful
 
 
 
