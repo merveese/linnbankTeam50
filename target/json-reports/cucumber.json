@@ -1,0 +1,215 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User is on registration page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8916010500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user on home page",
+            "match": {
+              "location": "linnbank.stepdefinitions.SampleStepdefs.user_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 366090900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user clicks on the webelement on the right top corner",
+            "match": {
+              "location": "linnbank.stepdefinitions.Registration_Step_Def.user_clicks_on_the_webelement_on_the_right_top_corner()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 236051900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on register",
+            "match": {
+              "location": "linnbank.stepdefinitions.Registration_Step_Def.user_clicks_on_register()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-25T07:10:58.610Z",
+        "line": 7,
+        "name": "TC_01_",
+        "description": "",
+        "id": "all-regisrants-info;tc-01-",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 475976300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user puts a valid ssn",
+            "match": {
+              "location": "linnbank.stepdefinitions.Registration_Step_Def.user_puts_a_valid_ssn()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 718539400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user puts a name",
+            "match": {
+              "location": "linnbank.stepdefinitions.Registration_Step_Def.user_puts_a_name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 259551200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user puts a last name",
+            "match": {
+              "location": "linnbank.stepdefinitions.Registration_Step_Def.user_puts_a_last_name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 507039600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user puts an address",
+            "match": {
+              "location": "linnbank.stepdefinitions.Registration_Step_Def.user_puts_an_address()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 287116300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user puts a phone number",
+            "match": {
+              "location": "linnbank.stepdefinitions.Registration_Step_Def.user_puts_a_phone_number()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 381029300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user puts a username",
+            "match": {
+              "location": "linnbank.stepdefinitions.Registration_Step_Def.user_puts_a_username()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 550210700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user puts an email",
+            "match": {
+              "location": "linnbank.stepdefinitions.Registration_Step_Def.user_puts_an_email()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 286166500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user sets a password \"Password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Password123\"",
+                  "offset": 21
+                }
+              ],
+              "location": "linnbank.stepdefinitions.Registration_Step_Def.user_sets_a_password(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 247651600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user confirm the password \"Password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Password123\"",
+                  "offset": 26
+                }
+              ],
+              "location": "linnbank.stepdefinitions.Registration_Step_Def.user_confirm_the_password(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 144830800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user completes registration by clicking on register button",
+            "match": {
+              "location": "linnbank.stepdefinitions.Registration_Step_Def.user_completes_registration_by_clicking_on_register_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testing"
+          }
+        ]
+      }
+    ],
+    "name": "All regisrants Info",
+    "description": "",
+    "id": "all-regisrants-info",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Registration.feature",
+    "tags": [
+      {
+        "name": "@testing",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
