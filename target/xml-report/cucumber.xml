@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="15.351">
-    <testcase classname="All regisrants Info" name="TC_01_" time="14.614">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="14.405">
+    <testcase classname="All regisrants Info" name="TC_01_" time="13.655">
         <system-out>
             <![CDATA[Given user on home page.....................................................passed
 And user clicks on the webelement on the right top corner...................passed
